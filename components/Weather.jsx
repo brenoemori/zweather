@@ -4,7 +4,7 @@ import React from 'react';
 const Weather = ({ data }) => {
   console.log(data);
   return (
-    <div className='relative flex flex-1 flex-col justify-between max-w-[500px] w-full h-[100vh] m-auto p-4 text-gray-300 z-10'>
+    <div className='relative flex flex-1 flex-col justify-between max-w-[500px] w-full h-[80vh] m-auto p-4 text-gray-300 z-10'>
       {/* Top */}
       <div className='relative flex justify-between pt-12'>
         <div className='flex flex-col items-center'>
@@ -20,7 +20,7 @@ const Weather = ({ data }) => {
       </div>
       {/* Bottom */}
 
-<div className='bg-black/50 relative p-8 rounded-md bottom-20'>
+<div className='bg-black/50 relative p-8 rounded-md '>
     <p className='text-2xl text-center pb-6'>Weather in {data.name}</p>
     <div className='flex justify-between text-center'>
         <div>
